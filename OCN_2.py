@@ -1,6 +1,6 @@
 from collections import deque
 from basic_fns import adjacency, check_close
-
+# update function name
 def is_bipartite(edges, n):
     colors = [0] * n                                            # Colors show which side of which component does a vertex belong to
     component_counter = 1                                       
